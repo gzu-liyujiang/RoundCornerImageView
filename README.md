@@ -2,6 +2,8 @@
 
 安卓圆角图片控件，支持分别设置上下左右四个角，通过Path实现绘制，在ListView/RecyclerView里比较丝滑。
 
+[![](https://jitpack.io/v/gzu-liyujiang/RoundCornerImageView.svg)](https://jitpack.io/#gzu-liyujiang/RoundCornerImageView)
+
 ![效果图](/screenshot.jpg)
 
 ## 例子演示：
