@@ -11,4 +11,19 @@
   ~ See the Mulan PSL v2 for more details.
   -->
 
-<manifest package="com.github.gzuliyujiang.RoundCornerImage" />
+<resources>
+
+    <declare-styleable name="RoundCornerImageView">
+        <attr name="lyj_cornerType" format="enum">
+            <enum name="all" value="0" />
+            <enum name="left" value="1" />
+            <enum name="top" value="2" />
+            <enum name="right" value="3" />
+            <enum name="bottom" value="4" />
+            <enum name="left_falling" value="5" />
+            <enum name="right_falling" value="6" />
+        </attr>
+        <attr name="lyj_cornerSize" format="dimension|reference" />
+    </declare-styleable>
+
+</resources>
