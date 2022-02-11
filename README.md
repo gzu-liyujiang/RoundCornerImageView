@@ -1,6 +1,6 @@
 # 项目说明
 
-安卓圆角图片控件，支持分别设置上下左右四个角，通过Path实现绘制，在ListView/RecyclerView里比较丝滑。
+安卓圆角图片控件，支持分别设置上下左右四个角，通过Path实现绘制，100行代码搞定，在ListView/RecyclerView里还是比较丝滑的。
 
 [![](https://jitpack.io/v/gzu-liyujiang/RoundCornerImageView.svg)](https://jitpack.io/#gzu-liyujiang/RoundCornerImageView)
 
@@ -12,7 +12,6 @@
 <com.github.gzuliyujiang.RoundCornerImage.RoundCornerImageView
     android:layout_width="90dp"
     android:layout_height="90dp"
-    android:layout_marginStart="10dp"
     android:scaleType="fitXY"
     android:src="@android:drawable/sym_def_app_icon"
     app:lyj_cornerSize="30dp"
